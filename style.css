@@ -1,0 +1,229 @@
+p {
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 1500px;
+    margin: auto;
+}
+
+.mission, .team, .map {
+    height: 600px;
+}
+
+.nav, .footer{
+    height: 150px;
+}
+
+.about {
+    height: 300px;
+}
+
+.nav {
+    background-color:#f7fdfe;;
+}
+
+.mission {
+    background-image: url("mountains.png");
+    
+}
+
+.about {
+    background-color: white;
+}
+
+.team {
+    background-color: #00C5CD;;
+}
+
+
+
+.map {
+    background-image: url("map.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.map:hover {
+    background-image: url("mountains.png");
+}
+
+.footer {
+    background-color: darkslategray;
+}
+
+
+
+.brand {
+    width: 30%;
+    height: 150px;
+    float: left;
+    background-color: #f7fdfe;;
+}
+
+.navbar {
+    height: 100%;
+    width: 70%;
+    float: left;
+    background-color: #f7fdfe;
+}
+
+.center {
+    width: 900px;
+    margin: auto;
+    height: 600px;
+    /* background-color: mediumspringgreen; */
+}
+
+.member-1 {
+    width: 33.33%;
+    height: 80%;
+    /* background-color: mediumturquoise; */
+    float: left;
+}
+
+.member-2 {
+    width: 33.33%;
+    height: 80%;
+    /* background-color: greenyellow; */
+    float: left;
+}
+
+.member-3 {
+    width: 33.33%;
+    height: 80%;
+    /* background-color: lightgreen; */
+    float: left;
+}
+
+.large-center{
+    width: 1200px;
+    height: 150px;
+    margin: auto;
+    /* background-color: lightgrey; */
+}
+
+.top-left {
+    width: 50%;
+    float: left;
+    height: 75px;
+    /* background-color: grey; */
+}
+
+
+.top-right {
+    width: 50%;
+    float: left;
+    height: 75px;
+    /* background-color:orange; */
+}
+
+.bottom-left {
+    width: 50%;
+    float: left;
+    height: 75px;
+    /* background-color: orangered; */
+}
+
+.bottom-right {
+    width: 50%;
+    float: left;
+    height: 75px;
+    /* background-color: red; */
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: slategray;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20%;
+}
+a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: slategray;
+}
+
+
+ul {
+    margin-top: 40px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    transition:border-radius 0.5s;
+}
+
+img:hover{
+    border-radius: 25%;
+    width: 100%;
+
+
+
+}
+
+.about h2 {
+    color: #00C5CD;;
+}
+
+.center p {
+    clear both
+}
+
+.top-left ul li a {
+    color: white;
+}
+
+.top-left ul {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.bottom-right ul li a {
+    color: #222222;
+}
+
+.bottom-right ul {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.bottom-right ul li {
+    float: right;
+    margin-right: 0%;
+    margin-left: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .team {
+        background-color: tomato;
+    }
+
+    .center {
+        margin: 0px;
+        width: 100%;
+        height: 800px;
+    }
+
+    .member-1,.member-2,.member-3 {
+    float: none;
+    clear: both;
+    width: 100%;
+    height: 30%;    
+    }
+
+} 
