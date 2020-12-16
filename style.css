@@ -22,7 +22,7 @@ p {
 }
 
 .nav {
-    background-color:#f7fdfe;;
+    background-color: gray;
 }
 
 .mission {
@@ -35,7 +35,7 @@ p {
 }
 
 .team {
-    background-color: #00C5CD;;
+    background-color: greenyellow;
 }
 
 
@@ -51,7 +51,7 @@ p {
 }
 
 .footer {
-    background-color: darkslategray;
+    background-color: navy;
 }
 
 
